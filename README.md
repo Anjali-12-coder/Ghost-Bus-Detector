@@ -76,8 +76,7 @@ ghost-bus-detector/
 │  └─ package.json
 │
 └─ assets/
-   └─ demo.png               # Demo screenshot
-
+   └─ demo.png
 
 How It Works:
 
@@ -105,3 +104,4 @@ Frontend optimization for large bus networks with clustering.
 
 
 ✅ Usage: Start backend and frontend, open the frontend in your browser, and watch buses classified as active vs ghost in real-time.
+
