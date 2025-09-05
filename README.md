@@ -58,17 +58,17 @@ ghost-bus-detector/
 │
 ├─ backend/
 │  ├─ app/
-│  │  ├─ __init__.py
-│  │  ├─ main.py
-│  │  ├─ ghost_detector.py
-│  │  └─ simulator.py
+│  │  ├─ __init__.py         # Marks folder as Python package
+│  │  ├─ main.py             # FastAPI entry point
+│  │  ├─ ghost_detector.py   # Logic to detect ghost buses
+│  │  └─ simulator.py        # Processes GTFS feeds + realtime.csv
 │  ├─ requirements.txt
-│  ├─ simple_gtfs/
-│  └─ sample_gtfs/ (includes realtime.csv)
+│  ├─ simple_gtfs/           # GTFS data for simple simulation
+│  └─ sample_gtfs/           # Sample GTFS + realtime.csv
 │
 ├─ frontend/
 │  ├─ public/
-│  │  └─ index.html
+│  │  └─ index.html           # Frontend entry point
 │  ├─ src/
 │  │  ├─ App.jsx
 │  │  ├─ BusMap.jsx
@@ -76,7 +76,8 @@ ghost-bus-detector/
 │  └─ package.json
 │
 └─ assets/
-   └─ demo.png
+   └─ demo.png               # Demo screenshot
+
 
 How It Works:
 
@@ -101,5 +102,6 @@ Display bus routes on the map.
 Alerts/notifications for ghost buses.
 
 Frontend optimization for large bus networks with clustering.
+
 
 ✅ Usage: Start backend and frontend, open the frontend in your browser, and watch buses classified as active vs ghost in real-time.
