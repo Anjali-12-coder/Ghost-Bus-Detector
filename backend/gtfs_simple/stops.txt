@@ -1,0 +1,6 @@
+stop_id,stop_name,stop_lat,stop_lon
+S1,Majestic,12.9780,77.5723
+S2,Shantinagar,12.9540,77.5920
+S3,Electronic City,12.8390,77.6780
+S4,KR Puram,13.0020,77.6950
+S5,Whitefield,12.9698,77.7500
